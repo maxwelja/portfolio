@@ -1,4 +1,4 @@
-### This is my developer portfolio
+# This is my developer portfolio project
 
 # Built and designed as MERN stack web application in VSCode
 
