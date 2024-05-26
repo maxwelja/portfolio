@@ -10,9 +10,13 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Navigate to="/Home" />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/Resumé" element={<Home />} />
+        <Route path="/CoverLetter" element={<Home />} />
+        <Route path="/Solo" element={<Home />} />
+        <Route path="/Group" element={<Home />} />
       </Routes>
-
     </Router>
   </React.StrictMode>
 );
